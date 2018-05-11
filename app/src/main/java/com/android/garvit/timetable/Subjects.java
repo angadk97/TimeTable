@@ -6,13 +6,15 @@ public class Subjects implements Serializable{
     private String Name;
     private String Room;
     private String Prof;
-    private String Color;
+    private String Day;
+    private String Period;
 
-    public Subjects(String name, String room, String prof, String color) {
+    public Subjects(String name, String room, String prof, String day, String period) {
         Name = name;
         Room = room;
         Prof = prof;
-        Color = color;
+        Day = day;
+        Period = period;
     }
 
     public String getName() {
@@ -39,11 +41,17 @@ public class Subjects implements Serializable{
         Prof = prof;
     }
 
-    public String getColor() {
-        return Color;
+    public String getDay() { return Day; }
+
+    public void setDay(String day) {
+        Day = day;
     }
 
-    public void setColor(String color) {
-        Color = color;
+    public String getPeriod() { return Period; }
+
+    public void setPeriod(String period) {
+        Period = period;
     }
+
+
 }

@@ -61,13 +61,13 @@ public class View_subjects extends AppCompatActivity {
             }
         });
         // sample add for now
-        SubjectList.add(new Subjects("Math","105","Raj", "Red"));
-        SubjectList.add(new Subjects("Msh","105","Raj", "Red"));
-        SubjectList.add(new Subjects("Mswath","105","Raj", "Red"));
-        SubjectList.add(new Subjects("Mawdwwdth","105","Raj", "Red"));
-        SubjectList.add(new Subjects("Ma2eth","105","Raj", "Red"));
-        SubjectList.add(new Subjects("Mdath","105","Raj", "Red"));
-        SubjectList.add(new Subjects("Mawwdth","105","Raj", "Red"));
+        //SubjectList.add(new Subjects("Math","105","Raj", "Red"));
+        //SubjectList.add(new Subjects("Msh","105","Raj", "Red"));
+        //SubjectList.add(new Subjects("Mswath","105","Raj", "Red"));
+        //SubjectList.add(new Subjects("Mawdwwdth","105","Raj", "Red"));
+        //SubjectList.add(new Subjects("Ma2eth","105","Raj", "Red"));
+        //SubjectList.add(new Subjects("Mdath","105","Raj", "Red"));
+        //SubjectList.add(new Subjects("Mawwdth","105","Raj", "Red"));
 
 
         // using adapter to put values in cardview
